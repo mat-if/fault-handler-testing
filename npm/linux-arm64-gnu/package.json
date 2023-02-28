@@ -1,0 +1,21 @@
+{
+  "name": "fault-handler-linux-arm64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "fault-handler.linux-arm64-gnu.node",
+  "files": [
+    "fault-handler.linux-arm64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}
